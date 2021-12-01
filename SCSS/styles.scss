@@ -321,6 +321,39 @@ main {
     }
 }
 
+.página__404 {
+    text-align: center;
+    background-color: $bordo;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.página__404__text {
+    text-align: center;
+    padding-top: 5rem;
+    .página__404__2 {
+        padding-top: 1rem;
+    }
+    .página__404__3 {
+        padding-bottom: 5rem;
+    }
+    .página__404__4 {
+        color: $bordo;
+        padding-bottom: 5rem;
+        @include font
+    }
+    .página__404__button {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-right: 2rem;
+        padding-left: 2rem;
+        background-color: $bordo;
+        color: white;
+        font-size: 1.5rem;
+        @include font
+    }
+}
+
 .cardTaller:hover {
     top: -4rem;
     left: 4rem;
