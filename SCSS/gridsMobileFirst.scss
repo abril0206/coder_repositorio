@@ -5,18 +5,15 @@ $bordo: #682424;
         grid-template-areas: 'div' 'div';
         grid-template-columns: auto;
         grid-template-rows: auto;
-        grid-column-gap: 1rem;
-        padding-top: 6em;
-        justify-content: center;
-        grid-row-gap: 5em;
+        grid-row-gap: 6em;
         .grid__talleres__one {
             display: grid;
             grid-column: 1;
             grid-row: 1;
             position: relative;
             align-content: center;
-            height: 80rem;
-            width: 20rem;
+            height: 65rem;
+            width: 22rem;
         }
         .grid__talleres__two {
             display: grid;
@@ -24,8 +21,8 @@ $bordo: #682424;
             grid-row: 2;
             position: relative;
             align-content: center;
-            height: 80rem;
-            width: 20rem;
+            height: 70rem;
+            width: 22rem;
         }
     }
     .grid__adopcion {

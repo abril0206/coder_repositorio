@@ -70,6 +70,10 @@
             font-weight: 400;
             font-size: 2rem;
         }
+        .imagenes_carousel {
+            width: 100%;
+            height: 54rem;
+        }
     }
     
     @each $red in instagram,
@@ -83,9 +87,10 @@
     footer {
         font-family: Montserrat;
         font-weight: 400;
-        color: $bordo;
+        padding-bottom: 0rem;
+        position: relative;
         .footer__container {
-            padding: 1em;
+            text-align: center;
         }
         .footer__text {
             background-color: $bordo;
@@ -93,6 +98,7 @@
             letter-spacing: 0.1rem;
             line-height: 2rem;
             font-size: 2rem;
+            text-align: center;
         }
     }
     
