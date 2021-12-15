@@ -18,6 +18,8 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.min.css.map">
     <link rel="stylesheet" href="SCSS/styles.scss">
     <link rel="stylesheet" href="SCSS/styles.css">
+    <link rel="stylesheet" href="SCSS/gridsMobileFirst.scss">
+    <link rel="stylesheet" href="SCSS/gridsMobileFirst.css">
     <meta name="keywords" content="REFUGIO, ANIMALES, PERROS, GATOS, RESCATE">
     <meta name="description" content="Helpaws es un refugio que ayuda y rescata todo tipo de animales para luego darlos en adopción">
     <title>Helpaws | Refugio Animal</title>
@@ -58,7 +60,7 @@
     </nav>
     <!-- Carousel -->
 
-    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+    <div id="demo" class="carousel slide sl-slider-wrapper" data-bs-ride="carousel">
 
         <!-- Indicators/dots -->
         <div class="carousel-indicators">
@@ -70,21 +72,21 @@
         <!-- The slideshow/carousel -->
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="img/pets3.jpg" alt="Dos cachorros jugando" class="d-block w-100">
-                <div class="carousel-caption">
-                    <h1 class="div__text__carousel">Ayudanos a ayudar</h1>
+                <img src="img/pets1.jpg" alt="Dos cachorros jugando" class="d-block w-100">
+                <div class="carousel-caption div__text__carousel">
+                    <h1 class="div__text__carousel ">Ayudanos a ayudar</h1>
 
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="img/pets2.jpg " alt="Dos perros colores blanco y negro" class="d-block w-100">
-                <div class="carousel-caption">
+                <div class="carousel-caption div__text__carousel__paragraph">
                     <p class="div__text__carousel__paragraph">Adoptá y cambiá la vida de un animal</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="img/pets1.jpg " alt="Perros de distinas razas" class="d-block w-100 ">
-                <div class="carousel-caption ">
+                <img src="img/pets3.jpg " alt="Dos perros colores blanco y negro" class="d-block w-100">
+                <div class="carousel-caption div__text__carousel__paragraph">
                     <p class="div__text__carousel__paragraph">¡Hacelos parte de tu familia!</p>
                 </div>
             </div>
@@ -99,20 +101,19 @@
     </button>
     </div>
 
-    <footer class="bg-light text-center">
-
-        <!-- Grid container -->
-        <div class="container p-4 pb-0 footer__container">
-            <!----Social media -->
-            <section class="mb-4">
-                <a href=" "><img class="facebook-icon" src="img/facebook.png" alt="facebook"></a>
-
-                <a href=" "><img class="instagram-icon" src="img/instagram.png" alt="instagram"></a>
-            </section>
-        </div>
-        <p class="text-center p-3 footer__text">
-            ¡Seguinos en nuestras redes!
-        </p>
+    <footer>
+        <!----Social media -->
+        <section class="footer__container">
+            <p class="footer__text footer__container__one">
+                ¡Seguinos en nuestras redes!
+                <a href="">
+                    <img class="facebook-icon" src="img/facebook.png" alt="facebook">
+                    <img class="instagram-icon" src="img/instagram.png" alt="instagram">
+                </a>
+            </p>
+            <p class=" footer__text footer__container__two">Copyright 2021 | Todos los derechos reservados</p>
+            <p class=" footer__text footer__container__three">Buenos Aires | Argentina</p>
+        </section>
     </footer>
 </body>
 
